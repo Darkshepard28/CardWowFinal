@@ -1,0 +1,11 @@
+<resources>
+    <string name="main_activity_btn_click_here">Refresh/Startup Database</string>
+    <string name="app_name">CardWow</string>
+    <string name="check_map">Check Map</string>
+    <string name="check_profile">Edit Profile</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name= "last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="Resume_Upload">Upload Resume</string>
+    <string name="Submit">Submit</string>
+</resources>

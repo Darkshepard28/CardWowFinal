@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/mmmm">
+        tools:context="com.nagarro.persistence.activity.MainActivity">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="@string/app_name"
+            android:textSize="50sp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/click_here_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_below="@+id/button2"
+            android:layout_marginTop="29dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/main_activity_btn_click_here"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="105dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="onClickMap"
+            android:text="@string/check_map" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/button"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="33dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="onClickProfile"
+            android:text="@string/check_profile" />
+
+    </RelativeLayout>
+
+</layout>
